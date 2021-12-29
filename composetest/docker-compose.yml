@@ -1,7 +1,8 @@
 version: "3.9"
 services:
   web:
-    build: .
+    build: ./dir
+    image: gmitproject
     ports:
       - "8888:8888"
     volumes:
