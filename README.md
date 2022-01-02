@@ -18,7 +18,7 @@ re builds if requires and starts the docker image.
 once start if provides a link with a token e.g.
 http://127.0.0.1:8888/lab?token=39b63edfa45d628aad8713d0f04ddcee72de616601329eaf
 
-the token changes
+the token changes<br>
 Using an internet broweser go to 
 ## Notebooks
  ### composetest/quantum-deutsch.ipynb -- quantum computing juypter notebook
@@ -26,23 +26,31 @@ Using an internet broweser go to
    <br>
    The bottome half covers Deutsch algorithm and it reasoning. It also contains code for visual with Deutsch's Algorithm with a random function and a simulation of it runing several times and seeing if the end result is 0 or 1
   
- ### composetest/scikit_learn_libary.ipynb -- scikit_learn_libary juypter notebook
+ ### composetest/scikit-learn.ipynb -- scikit learn juypter notebook
 There are 2 demonstrations of scikit-learn algorithms
 <br>
 Clustering, k means ++. Using a random grenated sample with sklearn.datasets.make_blobs and using kmeans_plusplus to find n center. Use differnet no_components to k_clusters in order to see how it work
 <br>
-Feature Selection, Model-based and sequential feature. Using the Diabetes Data
+Feature Selection, Model-based and sequential feature. Using the Diabetes Data I show the important features witch are link to diabetes, I use 2 diffenerts array elements one of 6 and one of 7 giving to sperate order of importance(please see notebook for more detail)
 ## Refernces
 Some methods for classification and analysis of multivariate observations <br>
   https://projecteuclid.org/ebooks/berkeley-symposium-on-mathematical-statistics-and-probability/Proceedings%20of%20the%20Fifth%20Berkeley%20Symposium%20on%20Mathematical%20Statistics%20and%20Probability,%20Volume%201:%20Statistics/chapter/Some%20methods%20for%20classification%20and%20analysis%20of%20multivariate%20observations/bsmsp/1200512992
+  <br>
   <br>
   Diabetes Data
   <br>
   https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html
   <br>
+  <br>
   Qiskit
   <br>
+  https://qiskit.org/
+  <br>
+  <br>
+  Deutsch algorithm
+  <br>
   https://qiskit.org/textbook/ch-algorithms/deutsch-jozsa.html#why-does-this-work
+  <br>
   <br>
   scikit-learn
   <br>
